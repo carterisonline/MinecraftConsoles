@@ -114,20 +114,6 @@ const char *SoundEngine::m_szStreamFileA[eStream_Max]=
 	"hal4",
 	"nuance1",
 	"nuance2",
-
-#ifndef _XBOX
-	"creative1",
-	"creative2",
-	"creative3",
-	"creative4",
-	"creative5",
-	"creative6",
-	"menu1",
-	"menu2",
-	"menu3",
-	"menu4",
-#endif
-
 	"piano1",
 	"piano2",
 	"piano3",
