@@ -27,6 +27,3 @@
 
 // 1.1
 #include "BeachBiome.h"
-
-//1.2.3
-#include "JungleBiome.h"

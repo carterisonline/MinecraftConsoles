@@ -54,7 +54,7 @@ bool CocoaTile::canSurvive(Level *level, int x, int y, int z)
 	z += Direction::STEP_Z[dir];
 	int attachedTo = level->getTile(x, y, z);
 
-	return attachedTo == Tile::treeTrunk_Id && TreeTile::getWoodType(level->getData(x, y, z)) == TreeTile::JUNGLE_TRUNK;
+	return attachedTo == Tile::treeTrunk_Id && TreeTile::getWoodType(level->getData(x, y, z)) == TreeTile::BIRCH_TRUNK;
 }
 
 int CocoaTile::getRenderShape()

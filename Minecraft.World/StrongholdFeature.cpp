@@ -27,8 +27,6 @@ void StrongholdFeature::staticCtor()
 	allowedBiomes.push_back(Biome::forestHills);
 	allowedBiomes.push_back(Biome::smallerExtremeHills);
 	allowedBiomes.push_back(Biome::taigaHills);
-	allowedBiomes.push_back(Biome::jungle);
-	allowedBiomes.push_back(Biome::jungleHills);
 };
 
 void StrongholdFeature::_init()

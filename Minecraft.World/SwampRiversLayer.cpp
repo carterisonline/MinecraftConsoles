@@ -19,7 +19,7 @@ intArray SwampRiversLayer::getArea(int xo, int yo, int w, int h)
 		{
 			initRandom(x + xo, y + yo);
 			int old = b[(x + 1) + (y + 1) * (w + 2)];
-			if ((old == Biome::swampland->id && nextRandom(6) == 0) || ((old == Biome::jungle->id || old == Biome::jungleHills->id) && nextRandom(8) == 0))
+			if ((old == Biome::swampland->id && nextRandom(6) == 0))
 			{
 				result[x + y * w] = Biome::river->id;
 			}

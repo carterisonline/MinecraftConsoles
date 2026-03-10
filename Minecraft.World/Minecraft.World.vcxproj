@@ -2663,7 +2663,6 @@
     <ClInclude Include="InteractGoal.h" />
     <ClInclude Include="ItemFrame.h" />
     <ClInclude Include="JumpControl.h" />
-    <ClInclude Include="JungleBiome.h" />
     <ClInclude Include="KickPlayerPacket.h" />
     <ClInclude Include="KillCommand.h" />
     <ClInclude Include="KnockbackEnchantment.h" />
@@ -3845,7 +3844,6 @@
     <ClCompile Include="InteractGoal.cpp" />
     <ClCompile Include="ItemFrame.cpp" />
     <ClCompile Include="JumpControl.cpp" />
-    <ClCompile Include="JungleBiome.cpp" />
     <ClCompile Include="KickPlayerPacket.cpp" />
     <ClCompile Include="KnockbackEnchantment.cpp" />
     <ClCompile Include="LavaSlime.cpp" />

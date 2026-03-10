@@ -22,8 +22,6 @@ void BiomeSource::_init()
 	playerSpawnBiomes.push_back(Biome::plains);
 	playerSpawnBiomes.push_back(Biome::taigaHills);
 	playerSpawnBiomes.push_back(Biome::forestHills);
-	playerSpawnBiomes.push_back(Biome::jungle);
-	playerSpawnBiomes.push_back(Biome::jungleHills);
 }
 
 void BiomeSource::_init(int64_t seed, LevelType *generator)
@@ -585,8 +583,6 @@ bool BiomeSource::getIsMatch(float *frac)
 		false,	// forest hills (combined with forest)
 		false,	// taiga hills (combined with taga)
 		false,	// small extreme hills
-		true,	// jungle
-		false,	// jungle hills (combined with jungle)
 	};
 
 
@@ -607,9 +603,6 @@ bool BiomeSource::getIsMatch(float *frac)
 
 	// Merge taiga and taiga hills
 	frac[5] = ( ( frac[19] > frac[5] ) ? frac[19] : frac[5] );
-
-	// Merge jungle and jungle hills
-	frac[21] =  ( ( frac[22] > frac[21] ) ? frac[22] : frac[21] );
 
 	// Loop through all biome types, and:
 	// (1) count them

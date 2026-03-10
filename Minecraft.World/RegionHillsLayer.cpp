@@ -42,11 +42,6 @@ intArray RegionHillsLayer::getArea(int xo, int yo, int w, int h)
 				{
 					next = Biome::iceMountains->id;
 				}
-				else if (old == Biome::jungle->id)
-				{
-					next = Biome::jungleHills->id;
-
-				}
 				if (next == old)
 				{
 					result[x + y * w] = old;

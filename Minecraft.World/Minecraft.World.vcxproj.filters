@@ -2477,9 +2477,6 @@
     <ClInclude Include="VillagerGolem.h">
       <Filter>net\minecraft\world\entity\animal</Filter>
     </ClInclude>
-    <ClInclude Include="JungleBiome.h">
-      <Filter>net\minecraft\world\level\biome</Filter>
-    </ClInclude>
     <ClInclude Include="DesertWellFeature.h">
       <Filter>net\minecraft\world\level\levelgen\feature</Filter>
     </ClInclude>
@@ -5043,9 +5040,6 @@
     </ClCompile>
     <ClCompile Include="VillagerGolem.cpp">
       <Filter>net\minecraft\world\entity\animal</Filter>
-    </ClCompile>
-    <ClCompile Include="JungleBiome.cpp">
-      <Filter>net\minecraft\world\level\biome</Filter>
     </ClCompile>
     <ClCompile Include="DesertWellFeature.cpp">
       <Filter>net\minecraft\world\level\levelgen\feature</Filter>

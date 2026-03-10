@@ -21,14 +21,13 @@ BiomeInitLayer::BiomeInitLayer(int64_t seed, shared_ptr<Layer>parent, LevelType 
 	}
 	else
 	{
-		startBiomes = BiomeArray(7);
+		startBiomes = BiomeArray(6);
 		startBiomes[0] = Biome::desert;
 		startBiomes[1] = Biome::forest;
 		startBiomes[2] = Biome::extremeHills;
 		startBiomes[3] = Biome::swampland;
 		startBiomes[4] = Biome::plains;
 		startBiomes[5] = Biome::taiga;
-		startBiomes[6] = Biome::jungle;
 	}
 }
 
